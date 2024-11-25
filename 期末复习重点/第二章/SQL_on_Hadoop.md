@@ -70,6 +70,7 @@ FROM table_reference
 #### **数据模型**
 
 假设有以下表：
+
 - `customer`：客户信息。
 - `orders`：订单信息。
 - `lineitem`：订单详情。
@@ -118,7 +119,7 @@ ORDER BY
 
 利用 HiveQL 嵌入自定义 MapReduce 程序来完成 **词频统计**。
 
-#### 数据：
+#### 数据
 
 - 表 `docs`：包含两列，`docid` 和 `doctext`。
   - `docid`：文档的唯一标识符。
